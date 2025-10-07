@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:TalendMetadata="http://www.talend.org/metadata/connection/2010" xmlns:orgomg.cwm.resource.record="http:///orgomg/cwm/resource/record.ecore">
+  <TalendMetadata:FileExcelConnection xmi:id="_cM6xcJZmEfCeDpQxMqbQ2A" name="salaire-23" id="_cM6KYJZmEfCeDpQxMqbQ2A" dataPackage="_cM6xcZZmEfCeDpQxMqbQ2A" Server="Localhost 127.0.0.1" FilePath="C:/Users/Administrator/Desktop/Projet Bi/data_traitees/salaires_2023.xlsx" Encoding="UTF-8" UseHeader="true" HeaderValue="1" FirstLineCaption="true" SheetName="Salaires_2023" firstColumn="1" thousandSeparator="','" decimalSeparator="'.'" selectAllSheets="true" sheetList="Salaires_2023:w&#xA;">
+    <sheetColumns>A</sheetColumns>
+    <sheetColumns>B</sheetColumns>
+    <sheetColumns>C</sheetColumns>
+    <sheetColumns>D</sheetColumns>
+    <sheetColumns>E</sheetColumns>
+    <sheetColumns>F</sheetColumns>
+    <sheetColumns>G</sheetColumns>
+    <sheetColumns>H</sheetColumns>
+    <sheetColumns>I</sheetColumns>
+    <sheetColumns>J</sheetColumns>
+    <sheetColumns>K</sheetColumns>
+    <sheetColumns>L</sheetColumns>
+  </TalendMetadata:FileExcelConnection>
+  <orgomg.cwm.resource.record:RecordFile xmi:id="_cM6xcZZmEfCeDpQxMqbQ2A" name="default" dataManager="_cM6xcJZmEfCeDpQxMqbQ2A">
+    <ownedElement xsi:type="TalendMetadata:MetadataTable" xmi:id="_cM6xcpZmEfCeDpQxMqbQ2A" id="_SQSwQJZmEfCeDpQxMqbQ2A" label="metadata">
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_cM6xc5ZmEfCeDpQxMqbQ2A" label="SALARIE" length="255" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_cM6xdJZmEfCeDpQxMqbQ2A" label="MOIS" length="255" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_cM6xdZZmEfCeDpQxMqbQ2A" label="DEPARTEMENT" length="255" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_cM6xdpZmEfCeDpQxMqbQ2A" label="SALAIRE_NET" length="-1" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_cM6xd5ZmEfCeDpQxMqbQ2A" label="CNSS" length="-1" talendType="id_Double" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_cM6xeJZmEfCeDpQxMqbQ2A" label="FISCAL" length="-1" talendType="id_Double" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_cM6xeZZmEfCeDpQxMqbQ2A" label="TICKET_RESTO" length="-1" talendType="id_Double" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_cM6xepZmEfCeDpQxMqbQ2A" label="COUT_TOTAL" length="-1" talendType="id_Double" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_cM6xe5ZmEfCeDpQxMqbQ2A" label="banque" length="255" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_cM6xfJZmEfCeDpQxMqbQ2A" label="dep_code" length="1" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_cM6xfZZmEfCeDpQxMqbQ2A" label="MOIS_NUM" length="2" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_cM6xfpZmEfCeDpQxMqbQ2A" label="Date" length="-1" talendType="id_Date" pattern="&quot;dd/MM/yyyy&quot;"/>
+    </ownedElement>
+  </orgomg.cwm.resource.record:RecordFile>
+</xmi:XMI>
